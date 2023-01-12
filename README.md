@@ -44,6 +44,6 @@ Output Signals :
 16. Pattern will check the sequence inst_addr.
 
 ### Usage and Notification :
-* I design the processor in pipeline structure
+* The processor is designed in pipeline structure
 * For wave simulation, I use ModelSim to compile and debug
 * To successfully compiled, TESTBED.v, PATTERN.v, MEM.v, SP.v, mem.txt and instruction_demo.txt are needed. However, only SP.v and instruction_demo.txt(for showing how the input data will be like) is provided due to copyright issues.
