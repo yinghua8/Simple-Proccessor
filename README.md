@@ -15,10 +15,12 @@ The following is the required instruction set of this design :
 
 
 ### Design Inputs and Outputs
-Input Signals : 
+Input Signals :
+
 ![image](https://user-images.githubusercontent.com/71891722/212061401-e40b9505-b70d-4528-b2d7-5f69318de93c.png)
 
 Output Signals : 
+
 ![image](https://user-images.githubusercontent.com/71891722/212061537-6ec64391-16ff-4e24-8452-111c2c814cb0.png)
 
 ### Specification
@@ -44,4 +46,4 @@ Output Signals :
 ### Usage and Notification :
 * I design the processor in pipeline structure
 * For wave simulation, I use ModelSim to compile and debug
-* To successfully compiled, TESTBED.v, PATTERN.v, MEM.v and SP.v are needed. However, only SP.v is provided due to copyright issues.
+* To successfully compiled, TESTBED.v, PATTERN.v, MEM.v, SP.v, mem.txt and instruction_demo.txt are needed. However, only SP.v and instruction_demo.txt(for showing how the input data will be like) is provided due to copyright issues.
